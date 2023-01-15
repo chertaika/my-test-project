@@ -1,0 +1,7 @@
+.lead__video {
+  position: absolute;
+  z-index: -1;
+  width: 53%;
+  left: 26%;
+  top: 5%;
+}

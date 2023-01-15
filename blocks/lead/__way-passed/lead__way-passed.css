@@ -1,0 +1,5 @@
+.lead__way-passed {
+  stroke: green;
+  stroke-width: 2px;
+  stroke-dashoffset: 1380;
+}

@@ -1,0 +1,13 @@
+.intro__content-container {
+  max-width: 690px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+@media screen and (max-width: 769px) {
+  .intro__content-container {
+    max-width: 720px;
+  }
+}

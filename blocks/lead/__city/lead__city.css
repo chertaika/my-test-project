@@ -1,0 +1,68 @@
+.lead__city:nth-of-type(1) {
+  animation: opacity 1.2s forwards;
+}
+
+.lead__city:nth-of-type(2) {
+  opacity: 0;
+  animation: opacity 1.2s 1.8s forwards ;
+}
+
+.lead__city:nth-of-type(3) {
+  opacity: 0;
+  animation: opacity 1.2s 4.4s forwards;
+}
+
+.lead__city:nth-of-type(4) {
+  opacity: 0;
+  animation: opacity 1.2s 5.6s forwards;
+}
+
+.lead__city:nth-of-type(5) {
+  opacity: 0;
+  animation: opacity 1.2s 7.5s forwards;
+}
+
+.lead__city:nth-of-type(6) {
+  fill: red;
+  opacity: 0;
+  animation: opacity 1.2s 8.9s forwards;
+}
+
+.lead__city:nth-of-type(7) {
+  opacity: 0;
+  animation: opacity 1.2s 11.9s forwards;
+}
+
+.lead__city:nth-of-type(8) {
+  opacity: 0;
+  animation: opacity 1.2s 13s forwards;
+}
+
+.lead__city:nth-of-type(9) {
+  opacity: 0;
+  animation: opacity 1.2s 14.1s forwards;
+}
+
+.lead__city:nth-of-type(10) {
+  opacity: 0;
+  animation: opacity 1.2s 15.8s forwards;
+}
+
+.lead__city:nth-of-type(11) {
+  opacity: 0;
+  animation: opacity 1.2s 18.8s forwards;
+}
+
+.lead__city:nth-of-type(12) {
+  opacity: 0;
+  animation: opacity 1.2s 19.8s forwards;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

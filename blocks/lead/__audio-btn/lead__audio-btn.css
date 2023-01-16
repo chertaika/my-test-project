@@ -1,0 +1,16 @@
+.lead__audio-btn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../../images/sound-off.png");
+  background-size: contain;
+  cursor: pointer;
+  opacity: .6;
+  transition: .2s;
+}
+
+.lead__audio-btn:hover {
+  opacity: 1;
+}

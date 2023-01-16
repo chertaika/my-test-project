@@ -25,7 +25,12 @@
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <figure class="lead__image-container">
-          <video src="images/train.mp4" poster="./images/poster.jpg" class="lead__video" preload="auto" autoplay loop="loop" muted></video>
+          <audio class="lead__audio" loop>
+            <source src="./media/train-sound.mp3" type="audio/mpeg">
+            <source src="./media/train-sound.ogg" type="audio/ogg">
+          </audio>
+          <div class="lead__audio-btn"></div>
+          <video src="./media/train.mp4" poster="./images/poster.jpg" class="lead__video" preload="auto" autoplay loop="loop" muted></video>
           <picture>
             <source srcset="./images/lead-polka-320.png" media="(max-width: 321px)">
             <source srcset="./images/lead-polka-768.png" media="(max-width: 769px)">
@@ -227,5 +232,6 @@
       <p class="footer__copyright">&copy; 2022. Юркова Екатерина</p>
     </footer>
   </div>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

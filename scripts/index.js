@@ -15,7 +15,7 @@ audioButton.addEventListener('click', () => {
 
 document.addEventListener("visibilitychange", function() {
   if (document.hidden){
-    audio['pause']();
+    audio.pause();
     audioButton.classList.remove('lead__audio-btn_pause');
 }
 });
